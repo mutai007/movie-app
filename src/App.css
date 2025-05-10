@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.movie-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-width: 200px;
+}
+
+input {
+  padding: 8px;
+  margin: 5px;
+}
